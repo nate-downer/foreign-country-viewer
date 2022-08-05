@@ -1,1 +1,4 @@
 mljar-mercury
+numpy
+pandas
+folium
