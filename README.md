@@ -4,7 +4,9 @@ Repository for deploying the "How Foreign will New Countries Feel?" viewer app. 
 Because python notebooks contain visualizations of the world map generated with the Folium library, they may be too graphically intense for GitHub to render an output for all notebooks.
 
 ## The App Itself:
-The app is a Jupyter Notebook written in python, and deployed as a web app. It uses Mercury to build the UI and Heroku to host it. [It can be viewed here!](https://foreign-country-viewer.herokuapp.com/app/1)
+The app is a Jupyter Notebook written in python. It utilizes Mercury to build the UI and Heroku to deploy it as a web app. 
+
+[It can be viewed here!](https://foreign-country-viewer.herokuapp.com/app/1)
 
 ## Limitations:
 It is inherently difficult to quantify how foreign a country will "feel", nevertheless that is this project's lofty goal. To try and achieve this, users are able to customize the results by adjusting the relative weights of six different "axis" (Demographics, Health, Climate, Economy, Language, and Religion). This way the algorithm can put a greater or lesser emphasis on each of these factors depending on how much the user believes they contribute to the "feel" of a place for them. For a granular view of what data is used to build the groups for each axis, check out the data sources.
